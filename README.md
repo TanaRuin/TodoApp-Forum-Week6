@@ -1,12 +1,46 @@
-# React + Vite
+ WADS - To Do List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Name:** Vammy Johannis Jiang
 
-Currently, two official plugins are available:
+**Class:** L4CC
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Student ID:** 2702368122
 
-## Expanding the ESLint configuration
+### Cloning From GitHub
+- Clone the repository and change directory to the respective repository
+    ```text
+    git clone https://github.com/TanaRuin/TodoApp-Forum-Week6.git
+    cd TodoApp-Forum-Week6
+    ```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Installing all dependencies
+    ```text
+    npm install
+    ```
+
+- Run the application
+    ```text
+    npm run dev
+    ```
+
+<br>
+
+### Pulling From Docker
+
+- Pull the docker image from Docker Hub. You can see the public view of the docker repository [here](https://hub.docker.com/r/tanaruin/todoappwads).
+    ```text
+   docker pull tanaruin/todoappwads:latest
+    ```
+
+- Run the docker image.
+    ```text
+    docker run -p 5173:5173 tanaruin/todoappwads:latest
+    ```
+
+- You can now access the todo app in the link below.
+    ```text
+    http://localhost:5173/
+    ```
+
+
+<br>
